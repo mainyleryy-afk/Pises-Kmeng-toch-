@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Babee Ly Theara ❤️</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+
+    /* YOUR PHOTO + PINK OVERLAY */
+    background:
+        linear-gradient(
+            rgba(255, 20, 147, 0.55),
+            rgba(255, 105, 180, 0.55)
+        ),
+        url("birthday-photo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+/* CARD */
+
+.box {
+    width: 90%;
+    max-width: 450px;
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    background: rgba(255, 255, 255, 0.94);
+
+    padding: 30px;
+
+    border-radius: 30px;
+
+    text-align: center;
+
+    box-shadow:
+        0 15px 50px rgba(0, 0, 0, 0.30);
+
+    z-index: 2;
+
+    animation: appear 1s ease;
+}
+
+@keyframes appear {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* HEADINGS */
+
+h1 {
+    color: #ff1493;
+    font-size: 30px;
+    line-height: 1.3;
+}
+
+h2 {
+    color: #ff4f81;
+}
+
+/* LOGIN */
+
+#birthday {
+    display: none;
+}
+
+input {
+    width: 100%;
+
+    padding: 15px;
+
+    border: 2px solid #ff69b4;
+
+    border-radius: 20px;
+
+    margin: 15px 0;
+
+    font-size: 17px;
+
+    text-align: center;
+
+    outline: none;
+}
+
+input:focus {
+    border-color: #ff1493;
+
+    box-shadow:
+        0 0 10px rgba(255, 20, 147, 0.3);
+}
+
+/* BUTTON */
+
+button {
+    border: none;
+
+    padding: 14px 25px;
+
+    border-radius: 25px;
+
+    background: #ff1493;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 5px 15px rgba(255, 20, 147, 0.3);
+}
+
+button:hover {
+    background: #ff007f;
+
+    transform: scale(1.06);
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+/* TEXT */
+
+.khmer {
+    color: #ff4081;
+
+    font-size: 18px;
+
+    line-height: 2;
+
+    font-weight: 500;
+}
+
+.love {
+    color: #555;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+.signature {
+    color: #ff1493;
+
+    font-weight: bold;
+
+    font-size: 21px;
+}
+
+/* SECRET MESSAGE */
+
+#secret {
+    display: none;
+
+    margin-top: 20px;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    background: #fff0f6;
+
+    color: #ff1493;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    animation: secretAppear 0.8s ease;
+}
+
+@keyframes secretAppear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* HEARTS */
+
+.heart {
+    position: fixed;
+
+    bottom: -40px;
+
+    font-size: 25px;
+
+    pointer-events: none;
+
+    z-index: 1;
+
+    animation: floatHeart 5s linear forwards;
+}
+
+@keyframes floatHeart {
+
+    0% {
+        transform:
+            translateY(0)
+            rotate(0deg)
+            scale(1);
+
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translateY(-110vh)
+            rotate(360deg)
+            scale(1.5);
+
+        opacity: 0;
+    }
+}
+
+/* TOP HEARTS */
+
+.small-heart {
+    font-size: 24px;
+
+    margin-bottom: 10px;
+}
+
+/* PHOTO ICON */
+
+.photo-heart {
+    font-size: 35px;
+
+    animation: heartbeat 1.2s infinite;
+}
+
+@keyframes heartbeat {
+
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+    .box {
+        width: 92%;
+
+        padding: 22px;
+
+        border-radius: 25px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .khmer {
+        font-size: 17px;
+    }
+}
+</style>
+</head>
+
+
+<body>
+
+
+<!-- ========================= -->
+<!-- PASSWORD SCREEN -->
+<!-- ========================= -->
+
+<div class="box" id="login">
+
+    <div class="photo-heart">
+        ❤️
+    </div>
+
+    <h1>
+        🎂 Happy Birthday<br>
+        Babee Ly Theara 🎂
+    </h1>
+
+    <h2>
+        My Beautiful Babee ❤️
+    </h2>
+
+    <p>
+        មាន Surprise តូចមួយសម្រាប់អូន 😘
+        <br>
+        បញ្ចូល Password ដើម្បីបើកមើល ❤️
+    </p>
+
+    <input
+        type="password"
+        id="password"
+        placeholder="🔐 Enter Password"
+        onkeydown="checkEnter(event)"
+    >
+
+    <br>
+
+    <button onclick="login()">
+        💗 បើកមើល 💗
+    </button>
+
+    <p id="error"></p>
+
+</div>
+
+
+
+<!-- ========================= -->
+<!-- BIRTHDAY PAGE -->
+<!-- ========================= -->
+
+<div class="box" id="birthday">
+
+    <div class="small-heart">
+        ❤️ 💕 ❤️ 💕 ❤️
+    </div>
+
+    <h1>
+        🎂 Happy Birthday 🎂
+    </h1>
+
+    <h2>
+        Babee Ly Theara ❤️
+    </h2>
+
+
+    <!-- KHMER MESSAGE -->
+
+    <p class="khmer">
+
+        រីករាយថ្ងៃកំណើត អូន Ly Theara ❤️🎂
+
+        <br><br>
+
+        ថ្ងៃនេះជាថ្ងៃពិសេសរបស់អូន
+        ហើយបងចង់ឲ្យអូនដឹងថា
+        អូនគឺជាមនុស្សពិសេសម្នាក់
+        សម្រាប់បងណាស់។ 🥺❤️
+
+        <br><br>
+
+        បងសូមជូនពរ អូនឲ្យមានសុខភាពល្អ
+        មានសំណាងល្អ
+        មានស្នាមញញឹមស្អាតៗ
+        និងមានក្តីសុខរាល់ថ្ងៃ។ 😘❤️
+
+        <br><br>
+
+        អូនគឺជាមនុស្សម្នាក់
+        ដែលធ្វើឲ្យបេះដូងបងមានក្តីសុខ
+        ហើយធ្វើឲ្យថ្ងៃធម្មតាៗ
+        ក្លាយជាថ្ងៃពិសេស។ 💕
+
+        <br><br>
+
+        បងអរគុណអូន
+        សម្រាប់គ្រប់ពេលវេលាល្អៗ
+        និងគ្រប់ស្នាមញញឹម
+        ដែលអូនបានផ្តល់ឲ្យបង។ 🥰
+
+        <br><br>
+
+        បងសង្ឃឹមថា
+        យើងនឹងមានអនុស្សាវរីយ៍ល្អៗ
+        ជាមួយគ្នាច្រើនទៀត។ ❤️
+
+        <br><br>
+
+        បងមិនសុំអ្វីច្រើនទេ...
+        បងគ្រាន់តែចង់ឃើញអូន
+        សប្បាយចិត្ត និងមានស្នាមញញឹម
+        រាល់ថ្ងៃ។ 🥺❤️
+
+        <br><br>
+
+        ស្រឡាញ់អូនណាស់ៗ 😘❤️
+
+        <br><br>
+
+        រីករាយថ្ងៃកំណើត
+        មនុស្សពិសេសរបស់បង 🎂💗
+
+    </p>
+
+
+    <!-- ENGLISH MESSAGE -->
+
+    <p class="love">
+
+        You deserve all the happiness,
+        love and beautiful moments in the world. ❤️
+
+        <br><br>
+
+        I hope this new year of your life
+        brings you beautiful memories,
+        endless smiles and everything
+        your heart wishes for. 💕
+
+        <br><br>
+
+        Always keep that beautiful smile,
+        because your smile is one of
+        my favorite things. 🥰
+
+    </p>
+
+
+    <!-- SURPRISE BUTTON -->
+
+    <button onclick="showSecret()">
+
+        🎁 One More Surprise For My Babee 💕
+
+    </button>
+
+
+    <!-- SECRET MESSAGE -->
+
+    <div id="secret">
+
+        💌 <strong>
+            សម្រាប់អូន Ly Theara
+        </strong>
+
+        <br><br>
+
+        បងចង់ប្រាប់អូនថា...
+
+        <br><br>
+
+        អូនមិនមែនគ្រាន់តែជា
+        មនុស្សដែលបងស្គាល់នោះទេ។ ❤️
+
+        <br><br>
+
+        អូនគឺជាមនុស្សម្នាក់
+        ដែលបងចង់ឲ្យមានស្នាមញញឹម
+        និងមានក្តីសុខជារៀងរាល់ថ្ងៃ។ 🥺💕
+
+        <br><br>
+
+        បងសង្ឃឹមថា
+        ថ្ងៃកំណើតឆ្នាំនេះ
+        នឹងក្លាយជាថ្ងៃមួយ
+        ដែលអូនចងចាំជានិច្ច។ 🎂❤️
+
+        <br><br>
+
+        បងស្រឡាញ់អូន
+        ហើយបងសូមជូនពរ
+        ឲ្យអូនមានក្តីសុខ
+        និងសម្រេចគ្រប់ក្តីប្រាថ្នា។ ❤️
+
+        <br><br>
+
+        រីករាយថ្ងៃកំណើត អូនសម្លាញ់ 😘🎂❤️
+
+        <br><br>
+
+        <span class="signature">
+            — Love, Heng ❤️
+        </span>
+
+    </div>
+
+</div>
+
+
+
+<!-- ========================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================= -->
+
+<script>
+
+/* 🔐 PASSWORD */
+
+const correctPassword = "210926";
+
+
+/* LOGIN */
+
+function login() {
+
+    const password =
+        document.getElementById("password").value;
+
+    const error =
+        document.getElementById("error");
+
+
+    if (password === correctPassword) {
+
+        document.getElementById("login")
+            .style.display = "none";
+
+        document.getElementById("birthday")
+            .style.display = "block";
+
+        startHearts();
+
+        createBirthdayExplosion();
+
+    } else {
+
+        error.innerHTML =
+            "😝 Password ខុសហើយ អូនសាកម្តងទៀតណា ❤️";
+
+        error.style.color = "red";
+
+        document.getElementById("password").value = "";
+
+    }
+}
+
+
+/* ENTER KEY */
+
+function checkEnter(event) {
+
+    if (event.key === "Enter") {
+
+        login();
+
+    }
+}
+
+
+/* SECRET BUTTON */
+
+function showSecret() {
+
+    const secret =
+        document.getElementById("secret");
+
+    secret.style.display = "block";
+
+
+    for (let i = 0; i < 40; i++) {
+
+        setTimeout(() => {
+
+            createHeart();
+
+        }, i * 80);
+
+    }
+
+}
+
+
+/* CREATE HEART */
+
+function createHeart() {
+
+    const heart =
+        document.createElement("div");
+
+    heart.className = "heart";
+
+
+    const hearts = [
+        "❤️",
+        "💕",
+        "💗",
+        "💖",
+        "💘",
+        "💝",
+        "💓",
+        "🥰",
+        "😘"
+    ];
+
+
+    heart.innerHTML =
+        hearts[
+            Math.floor(
+                Math.random() * hearts.length
+            )
+        ];
+
+
+    heart.style.left =
+        Math.random() * 100 + "vw";
+
+
+    heart.style.fontSize =
+        (18 + Math.random() * 25) + "px";
+
+
+    heart.style.animationDuration =
+        (3 + Math.random() * 4) + "s";
+
+
+    document.body.appendChild(heart);
+
+
+    setTimeout(() => {
+
+        heart.remove();
+
+    }, 7500);
+
+}
+
+
+/* CONTINUOUS HEARTS */
+
+function startHearts() {
+
+    setInterval(() => {
+
+        createHeart();
+
+    }, 600);
+
+}
+
+
+/* HEART EXPLOSION */
+
+function createBirthdayExplosion() {
+
+    for (let i = 0; i < 30; i++) {
+
+        setTimeout(() => {
+
+            createHeart();
+
+        }, i * 100);
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
